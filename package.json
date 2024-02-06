@@ -1,0 +1,19 @@
+{
+  "name": "your-api-backend",
+  "version": "1.0.0",
+  "description": "Your-API gives you free fake Api's which you can use in your projects and become a frontend developer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "devStart": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Tushar Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3"
+  }
+}
